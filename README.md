@@ -97,3 +97,23 @@ Use Case Diagrams are visual representations that show how users (actors) intera
 - Cancel Booking  
 - Process Payment  
 - Manage Listings (Admin)
+## Acceptance Criteria
+
+**Acceptance Criteria** are a list of clear, simple rules that a feature must meet to be considered finished and working correctly. They help everyone agree on what "done" means.
+
+### Why Acceptance Criteria Matter
+
+- They make sure everyone understands what the feature should do.
+- They help developers know exactly what to build.
+- They help testers check if the feature works properly.
+- They prevent misunderstandings and mistakes.
+
+### Example: Acceptance Criteria for the Checkout Feature
+
+- Users can add properties to their shopping cart.
+- Users must enter all required payment details before paying.
+- Payment is processed securely.
+- After payment, users get a confirmation message and email receipt.
+- If payment fails, users see an error message and can try again.
+
+
