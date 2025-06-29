@@ -49,3 +49,51 @@ The Requirement Analysis phase involves several important activities that help e
 
 - **Requirement Validation**  
   Reviewing and verifying requirements with stakeholders to ensure they accurately reflect the needs, are achievable, and are agreed upon before development begins.
+## Types of Requirements
+
+### Functional Requirements
+
+Functional requirements define what the system should do — the specific behaviors or functions it must perform. They describe the interactions between the system and its users or other systems.
+
+**Examples for a Booking Management System:**
+- Users must be able to register and log in securely.
+- The system should allow users to search for available properties.
+- Users can make, modify, or cancel a booking.
+- The system must send confirmation emails after a booking is made.
+
+### Non-functional Requirements
+
+Non-functional requirements specify how the system performs its functions, focusing on quality attributes such as performance, security, and usability.
+
+**Examples for a Booking Management System:**
+- The system should load any page within 2 seconds.
+- User data must be encrypted to ensure privacy.
+- The application should be available 99.9% of the time.
+- The system should support at least 10,000 concurrent users.
+## Use Case Diagrams
+
+Use Case Diagrams are visual representations that show how users (actors) interact with a system through different functionalities (use cases). They help stakeholders understand the system’s scope and the relationships between users and features.
+
+### Benefits of Use Case Diagrams:
+- Provide a clear overview of system functionality.
+- Help identify system boundaries and user roles.
+- Facilitate communication between developers and stakeholders.
+- Aid in requirement validation by visually mapping user interactions.
+
+### Use Case Diagram for the Booking System
+
+![Booking System Use Case Diagram](./alx-booking-uc.png)
+
+**Actors:**  
+- User  
+- Admin  
+- Payment Gateway  
+
+**Use Cases:**  
+- Register / Login  
+- Search Properties  
+- Book Property  
+- Modify Booking  
+- Cancel Booking  
+- Process Payment  
+- Manage Listings (Admin)
